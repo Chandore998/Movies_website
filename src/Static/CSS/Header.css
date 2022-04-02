@@ -1,0 +1,107 @@
+.container-header{
+    height: 50px;
+    padding: 0 40px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.movie-logo{
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(23, 81, 132);
+    border-radius: 3px;
+    height: 40px;
+    padding: 0px 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 3px 20px , rgba(234, 235, 236, 0.299) 1px -1px 10px , rgba(212, 212, 213, 0.102) 0px 3px 20px  inset;
+}
+
+
+.user-image img{
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: rgba(251, 253, 255, 0.2) 0px 3px 20px ;
+}
+
+.wrapper-search{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding-right: 3px;
+    border-radius: 10px;
+    position: relative;
+    background-color: white ;
+}
+
+.wrapper-search input{
+    font-size: 18px;
+    width: 91%;
+    height: inherit;
+    outline: none;
+    position: relative;
+    padding-left: 10px ;
+    padding-right: 25px;
+    border-radius: 3px;
+    border: none;
+}
+
+.wrapper-search:focus{
+    border: 3px solid;
+    border-color: rgba(50, 115, 220, 0.1);
+}
+
+.clear-search{
+    position: absolute;
+    right:8%;
+    background-color: white;
+    z-index: 1;
+    border-radius: 10px;
+    top: 2.5px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.search > img{
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .container-header{
+        background-color: black;
+        height: 120px;  
+        padding: 5px 0px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper-search{
+        width: 100%;
+        margin: 10px 0px;
+        border-radius: 10px;
+        position: relative;
+        background-color: white ;
+    }
+}
+
+
+

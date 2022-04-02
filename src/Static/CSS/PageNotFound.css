@@ -1,0 +1,29 @@
+.containers{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Error_title{
+    font-size: 6rem;
+    color: rgb(80 139 234 / 23%);
+    position: relative;
+}
+
+.container .error-message{
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 42%;
+}
+
+
+.back_btn{
+    padding: 5px;
+    width: 150px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}

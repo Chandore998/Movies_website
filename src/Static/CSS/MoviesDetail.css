@@ -1,0 +1,76 @@
+.wrapper-detail{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+}
+
+.backs_btn{
+    position: absolute;
+    top: -28px;
+    left: 0px;
+    padding: 3px 8px;
+}
+
+
+.left-detail .movie-title{
+    font-size: 50px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.movies-rating > span{
+    margin: 10px;
+}
+
+.movie-plot{
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+.movie-Info{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.movie-Info > div span:first-child{
+    padding: 10px 0px;
+    color: rgb(61, 13, 13);
+    font-weight: 600;
+    font-size: 18px;
+    width: 100px;
+    display: inline-block;
+}
+
+.movie-Info > div span:first-child ~ span{
+    padding: 10px 0px;
+    color: rgb(22, 90, 208);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.right-detail > img{
+    border-radius: 10px;
+}
+
+.fa-star{
+    color: rgb(251, 255, 14);
+}
+
+.fa-thumbs-up{
+    color: rgb(255, 255, 255);
+}
+
+.fa-film{
+    color: rgb(255, 255, 255);
+}
+
+.fa-calendar{
+    color: rgb(255, 255, 255);
+}
+
+.fa-star{
+    color: rgb(251, 255, 14);
+}
+
